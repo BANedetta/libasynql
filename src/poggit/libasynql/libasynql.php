@@ -53,7 +53,6 @@ final class libasynql{
 
 	public static function detectPackaged() : void{
 		self::$packaged = __CLASS__ === 'poggit\libasynql\libasynql';
-		var_dump(__CLASS__);
 	}
 
 	private function __construct(){
